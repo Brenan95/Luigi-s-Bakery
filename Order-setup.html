@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luigis bakery Website</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!-- This is the banner image with the bakeries logo -->
+        <div id="bannerimage"></div>
+        <!-- Made nav menu Maroon to go with color scheme of the website -->
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="Contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="customer-survey.html">Survey</a>
+            </li>
+            <li style="float: right;">
+                <a class="active" href="Order-setup.html">Ordering</a>
+            </li>
+        </ul>
+        <br />
+        <br />
+        <!-- This is the code for the video, I edited it to slow it down and added music -->
+        <iframe style="border: 25px solid #660000;" class="center" width="560" height="315" src="images/CakeSpin.mp4" frameborder="0" allowfullscreen> </iframe>
+        <h1 class="center">Order Your Pasteries Here</h1>
+        <!-- This is the table code to set up the ordering system for the baked goods. I wanted it to be able to cover a variety -->
+        <table>
+            <tr>
+                <th>Choose your Pastry</th>
+                <th>Choose up to 3 flavor's</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>
+                    <form action="/action_page.php">
+                        <label for="cars">Pastries:</label>
+                        <select name="cars" id="cars">
+                            <option value="Chocolate">
+                                Rolls
+                            </option>
+                            <option value="Vanilla">
+                                Bun
+                            </option>
+                            <option value="Strawberry">
+                                Croissant
+                            </option>
+                            <option value="Walnut">
+                                cupcakes
+                            </option>
+                        </select>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </td>
+                <td>
+                    <form action="/action_page.php">
+                        <label for="flavors">Flavors:</label>
+                        <select name="flavors" id="flavors">
+                            <option value="Chocolate">
+                                Chocolate
+                            </option>
+                            <option value="Vanilla">
+                                Vanilla
+                            </option>
+                            <option value="Strawberry">
+                                Strawberry
+                            </option>
+                            <option value="Walnut">
+                                Walnut
+                            </option>
+                        </select>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </td>
+                <td>
+                    <form action="/action_page.php"><input type="number" id="quantity" name="quantity" min="1" max="20" /> <input type="submit" /></form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="/action_page.php">
+                        <label for="pies">Pies:</label>
+                        <select name="pies" id="pies">
+                            <option value="Chocolate">
+                                Cherry
+                            </option>
+                            <option value="Vanilla">
+                                Apple
+                            </option>
+                            <option value="Strawberry">
+                                Mixed berry
+                            </option>
+                            <option value="Walnut">
+                                Peacan
+                            </option>
+                        </select>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </td>
+                <td></td>
+                <td>
+                    <form action="/action_page.php">
+                        <input type="number" id="quantity" name="quantity" min="1" max="20" />
+                        <input type="submit" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="/action_page.php">
+                        <label for="cookies">Cookies:</label>
+                        <select name="cookies" id="cookies">
+                            <option value="Chocolate">
+                                Chocolate Chip
+                            </option>
+                            <option value="Vanilla">
+                                White Chocolate Macademia
+                            </option>
+                            <option value="Strawberry">
+                                Double Chocolate
+                            </option>
+                            <option value="Walnut">
+                                Special
+                            </option>
+                        </select>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </td>
+                <td></td>
+                <td>
+                    <form action="/action_page.php"><input type="number" id="quantity" name="quantity" min="1" max="20" /> <input type="submit" /></form>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <!-- the footer code -->
+        <div class="footer">
+            <p class="center">Brenan Hernandez IT270 2023</p>
+        </div>
+    </body>
+</html>

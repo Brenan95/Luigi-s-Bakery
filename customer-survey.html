@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luigis bakery Website</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="bannerimage"></div>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="Contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="customer-survey.html">Survey</a>
+            </li>
+            <li style="float: right;">
+                <a class="active" href="Order-setup.html">Ordering</a>
+            </li>
+        </ul>
+        <br />
+        <br />
+        <h1 class="center">We'd like to hear from you about our service!</h1>
+        <table>
+            <tr>
+                <td>How was your experience?</td>
+                <td>Were you satisfied with your experience?</td>
+                <td>Favorite Pastry?</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="/action_page.php">
+                        <label for="Option">Options:</label>
+                        <select name="Option" id="Option">
+                            <option value="Great">
+                                Great
+                            </option>
+                            <option value="Good">
+                                Good
+                            </option>
+                            <option value="Ok">
+                                Ok
+                            </option>
+                            <option value="Bad">
+                                Bad
+                            </option>
+                        </select>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </td>
+                <td>
+                    <form action="/action_page.php">
+                        <label for="cars">Options:</label>
+                        <select name="cars" id="cars">
+                            <option value="Chocolate">
+                                Yes
+                            </option>
+                            <option value="Vanilla">
+                                No
+                            </option>
+                        </select>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </td>
+                <td>
+                    <form action="/action_page.php">
+                        <label for="cars">Pastries:</label>
+                        <select name="cars" id="cars">
+                            <option value="Chocolate">
+                                Cookie
+                            </option>
+                            <option value="Vanilla">
+                                Cake
+                            </option>
+                            <option value="Strawberry">
+                                Roll
+                            </option>
+                            <option value="Walnut">
+                                Bun
+                            </option>
+                        </select>
+                        <br />
+                        <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <div class="row">
+            <div class="column">
+                <img src="images/cake.jpg" alt="cake" style="width: 100%;" />
+            </div>
+            <div class="column">
+                <img src="images/Can.jpg" alt="cannoli" style="width: 100%;" />
+            </div>
+            <div class="column">
+                <img src="images/cran.jpg" alt="berry" style="width: 100%;" />
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <!-- the footer code -->
+        <div class="footer">
+            <p class="center">Brenan Hernandez IT270 2023</p>
+        </div>
+    </body>
+</html>

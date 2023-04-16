@@ -1,0 +1,125 @@
+body {
+    background-color: #ffffcc;
+}
+/* banner image code*/
+#bannerimage {
+    width: 100%;
+    background-image: url(images/Banner2.jpg);
+    height: 405px;
+    background-color: maroon;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* this is the nav bar */
+ul {
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #660000;
+}
+
+.active {
+    background-color: #990000;
+}
+/* h1 tag colored maroon to stand out against the pale yellow*/
+h1 {
+    font-family: arial, sans-serif;
+    color: darkred;
+}
+/* h2 tag colored maroon to stand out against the pale yellow*/
+h2 {
+    font-family: arial, sans-serif;
+    color: darkred;
+}
+p {
+    font-family: arial, sans-serif;
+    color: indianred;
+}
+
+/* Three image containers */
+.column {
+    float: left;
+    width: 32.5%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* table code*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #ffffcc;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffcc;
+}
+/*centers video*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* centers images*/
+.centaur {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+/*code for the footer*/
+.footer {
+    font-family: arial, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    text-align: right;
+}
+/*floats things left*/
+.floatleft {
+    margin-left: auto;
+    text-align: left;
+    padding: 5px;
+}
+/*floats things right*/
+.Imageright {
+    float: right;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
